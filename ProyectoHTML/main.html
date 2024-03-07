@@ -17,7 +17,7 @@
             max-width: 150px;
         }
 
-        a{
+        a {
             text-decoration: none;
         }
     </style>
@@ -39,16 +39,15 @@
                         <a class="nav-link active" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./info.html" class="nav-link">Acerca de nosotros</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Ofertas</a>
                     </li>
-                    
-                    
+                    <li class="nav-item">
+                        <a href="./info.html" class="nav-link">Acerca de nosotros</a>
+                    </li>
+
 
                 </ul>
                 <button type="button" class="btn btn-primary me-2" data-bs-toggle="modal"
@@ -64,7 +63,7 @@
     </nav>
 
 
-    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -85,6 +84,31 @@
                         <div class="mb-3">
                             <label for="registerPassword" class="form-label">Contraseña</label>
                             <input type="password" class="form-control" id="registerPassword">
+                        </div>
+                        <div class="mb-3">
+                            <label for="registerPassword" class="form-label">Repetir Contraseña</label>
+                            <input type="password" class="form-control" id="registerPassword">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="registerNumberPhone" class="form-label">Telefono</label>
+                            <input type="text" class="form-control" id="registerNumberPhone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="registerUserName" class="form-label">Usuario</label>
+                            <input type="text" class="form-control" id="registerUserName">
+                        </div>
+                        <div class="mb-3">
+                            <label>Sexo:</label><br>
+                            <input type="radio" id="masculino" name="sexo" value="masculino">
+                            <label for="masculino">Masculino</label><br>
+                            <input type="radio" id="femenino" name="sexo" value="femenino">
+                            <label for="femenino">Femenino</label><br>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fecha_nacimiento">Fecha de nacimiento:</label><br>
+                            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br>
                         </div>
                         <button type="submit" class="btn btn-primary">Registrarse</button>
                     </form>
@@ -185,7 +209,8 @@
                         <del>
                             <h6 class="card-subtitle mb-2 text-muted">$250.00</h6>
                         </del>
-                        <p class="card-subtitle my-2 text-muted">$220.00<span> </span><span class="label label-warning bg-warning rounded-2 p-1"> -12%</span></p>
+                        <p class="card-subtitle my-2 text-muted">$220.00<span> </span><span
+                                class="label label-warning bg-warning rounded-2 p-1"> -12%</span></p>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
                             dimensiones, etc.</p>
                         <a href="#" class="btn btn-primary">Añadir al carrito</a>
@@ -257,7 +282,9 @@
                         <p class="card-text">Descripción breve del producto. Puede incluir algunas características
                             clave.</p>
 
-                            <del><h6 class="card-subtitle mb-2 text-muted">$70.00</h6></del>
+                        <del>
+                            <h6 class="card-subtitle mb-2 text-muted">$70.00</h6>
+                        </del>
 
                         <h6 class="card-subtitle mb-2 text-muted">$62.00</h6>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
@@ -274,7 +301,9 @@
                         <p class="card-text">Descripción breve del producto. Puede incluir algunas características
                             clave.</p>
 
-                            <del><h6 class="card-subtitle mb-2 text-muted">$42.00</h6></del>
+                        <del>
+                            <h6 class="card-subtitle mb-2 text-muted">$42.00</h6>
+                        </del>
 
                         <h6 class="card-subtitle mb-2 text-muted">$39.00</h6>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
@@ -292,7 +321,9 @@
                         <p class="card-text">Descripción breve del producto. Puede incluir algunas características
                             clave.</p>
 
-                            <del><h6 class="card-subtitle mb-2 text-muted">$150.00</h6></del>
+                        <del>
+                            <h6 class="card-subtitle mb-2 text-muted">$150.00</h6>
+                        </del>
 
                         <h6 class="card-subtitle mb-2 text-muted">$139.00</h6>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
@@ -310,7 +341,9 @@
                         <p class="card-text">Descripción breve del producto. Puede incluir algunas características
                             clave.</p>
 
-                            <del><h6 class="card-subtitle mb-2 text-muted">$220.00</h6></del>
+                        <del>
+                            <h6 class="card-subtitle mb-2 text-muted">$220.00</h6>
+                        </del>
 
                         <h6 class="card-subtitle mb-2 text-muted">$190.00</h6>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
@@ -327,7 +360,9 @@
                         <p class="card-text">Descripción breve del producto. Puede incluir algunas características
                             clave.</p>
 
-                            <del><h6 class="card-subtitle mb-2 text-muted">$78.00</h6></del>
+                        <del>
+                            <h6 class="card-subtitle mb-2 text-muted">$78.00</h6>
+                        </del>
 
                         <h6 class="card-subtitle mb-2 text-muted">$67.99.00</h6>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
@@ -344,7 +379,9 @@
                         <p class="card-text">Descripción breve del producto. Puede incluir algunas características
                             clave.</p>
 
-                            <del><h6 class="card-subtitle mb-2 text-muted">$50.00</h6></del>
+                        <del>
+                            <h6 class="card-subtitle mb-2 text-muted">$50.00</h6>
+                        </del>
 
                         <h6 class="card-subtitle mb-2 text-muted">$39.00</h6>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
@@ -361,7 +398,9 @@
                         <p class="card-text">Descripción breve del producto. Puede incluir algunas características
                             clave.</p>
 
-                            <del><h6 class="card-subtitle mb-2 text-muted">$320.00</h6></del>
+                        <del>
+                            <h6 class="card-subtitle mb-2 text-muted">$320.00</h6>
+                        </del>
 
                         <h6 class="card-subtitle mb-2 text-muted">$289.00</h6>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
@@ -370,7 +409,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+            <div class="col-lg-3 col-md-4 col-sm-12 mb-4 py-0">
                 <div class="card">
                     <img src="../ProyectoHTML/ImagenPerfumes/aire desierto.jpg" class="card-img-top"
                         alt="Product Image">
@@ -379,7 +418,9 @@
                         <p class="card-text">Descripción breve del producto. Puede incluir algunas características
                             clave.</p>
 
-                            <del><h6 class="card-subtitle mb-2 text-muted">$489.00</h6></del>
+                        <del>
+                            <h6 class="card-subtitle mb-2 text-muted">$489.00</h6>
+                        </del>
 
                         <h6 class="card-subtitle mb-2 text-muted">$429.00</h6>
                         <p class="card-text">Detalles adicionales sobre el producto. Puede incluir especificaciones,
@@ -391,38 +432,48 @@
 
 
 
-            <footer class="text-center bg-info py-5">
+            <footer class="text-center bg-info py-0">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
                             <h3 class="text-dark">Dirección</h3>
                             <p class="text-dark">
-                                Bollullos de la Mitación <br />
-                                Al-Manar n16
+                                41110 <br />
+                                Al-Manar n16 </br>
+                                Sevilla <br />
+                                ESP <br />
+
                             </p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 text-center ">
                             <h3 class="text-dark">Mis redes</h3>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a target="_blank" href="#" class="btn btn-outline-dark"><i class="bi bi-twitter"></i> Twitter</a>
+                                    <a target="_blank" href="#" class="btn btn-outline-dark"><i
+                                            class="bi bi-twitter"></i> Twitter</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a target="_blank" href="#" class="btn btn-outline-dark"><i class="fa fa-instagram"></i> Instagram</a>
+                                    <a target="_blank" href="#" class="btn btn-outline-dark"><i
+                                            class="fa fa-instagram"></i> Instagram</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a target="_blank" href="#" class="btn btn-outline-dark"><i class="fa fa-gmail"></i> Gmail</a>
+                                    <a target="_blank" href="#" class="btn btn-outline-dark"><i
+                                            class="fa fa-facebook"></i> Facebook</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <h3 class="text-dark">Experiencia</h3>
-                            <p class="text-dark">Más de 20 años en la creación y venta de perfumes.</p>
-                            <p>Si quiere saber  mas acerca de nosotros: </p><a href="./info.html">Pulse aqui</a>
+                            <p class="text-dark">Más de 20 años en la creación y venta de perfumes.<br />
+                                Si quiere saber mas acerca de nosotros:<br />
+                                <a href="./info.html">Pulse aqui
+                            </p>
                         </div>
                     </div>
                 </div>
             </footer>
+
+
 </body>
 
 </html>
